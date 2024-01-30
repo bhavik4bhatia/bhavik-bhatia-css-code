@@ -1,0 +1,141 @@
+<?php
+  $pageClass = 'monochrome';
+  include './templates/header.php';
+?>
+
+<head>
+    <style>
+       body{
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1{
+    background-color: grey;
+    color: white;
+    border: 5px rgb(230, 193, 100) solid;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    font: normal normal 20 20px Times New Roman, Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  h2{
+    background-color: grey;
+    color: white;
+    border: 5px rgb(230, 193, 100) solid;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font: normal normal 20 20px Arial, Helvetica, sans-serif;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  h3{
+    background-color: grey;
+    color: white;
+    border: 5px rgb(230, 193, 100) solid;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font: normal normal 20 20px Lucida Console, Courier New, monospacef;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  h4{
+    background-color: grey;
+    color: white;
+    border: 5px rgb(230, 193, 100) solid;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font: normal normal 20 20px Lucida Console, Courier New, monospace;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  a{
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: white;
+  }
+   
+   
+  a:link{
+    color:red;
+    
+  } 
+
+  a:hover{
+    color:yellow;
+  } 
+
+  a:visited {
+    color:purple;
+  } 
+  
+    </style>
+
+    <head>
+      
+        <main>
+            <section class="masthead">
+                <div class="f-row col-1">
+                    <h1><u>Monochrome</u></h1>
+                </div>
+            </section>
+            <section class="row">
+                <h2><span><u>Monochrome</u></span> Color Scheme</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eligendi ex excepturi fugit molestiae obcaecati repellat sit tempora? Consectetur doloribus eos est incidunt minus nesciunt nihil nostrum odio praesentium, repellendus saepe ullam. Autem beatae commodi corporis, ea in ipsum minima molestias nobis quae quas qui tempora voluptate? Accusamus architecto enim id repellendus?</p>
+                <div class="spacer"></div>
+                <a class="btn btn-1"><u>Button</u></a>
+            </section>
+            <section class="g-row col-2">
+                <div>
+                    <div class="mask"></div>
+                </div>
+                <div>
+                    <h3><u>Title</u></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto aspernatur enim illum pariatur, soluta!</p>
+                    <a href="#" class="btn btn-1">Button Text</a>
+                    <div class="spacer space-primary"></div>
+                    <h3><u>Title</u></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto aspernatur enim illum pariatur, soluta!</p>
+                    <a href="#" class="btn btn-2">Button Text</a>
+                    <div class="spacer space-secondary"></div>
+                    <h3><u>Title</u></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto aspernatur enim illum pariatur, soluta!</p>
+                    <a href="#" class="btn btn-1">Button Text</a>
+                    <div class="spacer space-primary"></div>
+                </div>
+            </section>
+            <section class="g-row col-3">
+                <div>
+                    <h4><u>Title</u></h4>
+                    <i class="fa-solid fa-swatchbook"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ut!</p>
+                </div>
+                <div>
+                    <h4><u>Title</u></h4>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ut!</p>
+                </div>
+                <div>
+                    <h4><u>Title</u></h4>
+                    <i class="fa-solid fa-paint-roller"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ut!</p>
+                </div>
+            </section>
+        </main>
+        <?php include './templates/footer.php'; ?>
